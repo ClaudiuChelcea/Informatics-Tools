@@ -3,6 +3,9 @@
 % Packages
 \usepackage{hyperref}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{afterpage}
 
 % Author and project setup
 \author{Chelcea Claudiu-Marian}
@@ -13,12 +16,33 @@
 \setlength{\arrayrulewidth}{1mm}
 \setlength{\tabcolsep}{18pt}
 \renewcommand{\arraystretch}{1.5}
+\addtocontents{toc}{\protect\enlargethispage{\baselineskip}}
 
 % Main code
 \begin{document}
 
 % Intro page
-\maketitle
+\begin{titlepage}
+  \afterpage{\pagecolor{white}}%
+  \LARGE
+  \begin{center}
+  \begin{figure}
+  \includegraphics[width=\linewidth]{UnrealUnity.jpg}
+  \caption{Unity vs Unreal Engine,  credits to \href{https://www.htlo.co.uk/unity-vs-unreal-engine-a-quick-comparison/}{HTLO}.}
+  \label{fig:UvsUE}
+
+\end{figure}
+
+    {\bfseries Dezvoltarea de jocuri video - ce motor grafic s\^{a} folosesc?}\\[3em]
+    {\large
+      \begin{tabular}{rl}
+      \textbf{Nume:} & Chelcea Claudiu-Marian \\
+      \textbf{Grupa:} & 312CA \\
+ 	\textbf{Data:} & 03.19.2021
+      \end{tabular}%
+    }
+  \end{center}
+\end{titlepage}
 
 % Contents page
 \newpage
@@ -33,7 +57,7 @@ Un motor grafic este un sistem conceput pentru crearea și dezvoltarea de {\it j
 % Second page
 \newpage
 \section{Ce motoare grafice sunt populare?}
-\hspace{5pt} Lista celor mai populare 10 motoare grafice, conform \href{https://www.gamedesigning.org/career/video-game-engines/}{GAMEDESIGNING}:
+\hspace{5pt} Lista celor mai populare 10 motoare grafice, conform \href{https://www.gamedesigning.org/career/video-game-engines/}{GAMEDESIGNING}:\footnote[1]{Aceste statistici sunt actuale la data de 19 Martie 2021.} 
 \begin{itemize}
   \item Unreal Engine.
   \item Unity
@@ -47,24 +71,29 @@ Un motor grafic este un sistem conceput pentru crearea și dezvoltarea de {\it j
   \item URHO3D
 \end{itemize}
 
+
 O analiză de la Gamasutra a constatat că Unreal și Unity sunt printre cele mai populare motoare de joc. Această analiză s-a bazat pe jocuri lansate pe Steam și Itch.io.
 
 % Third page
 \newpage
 \section{Diferen\c{t}e dintre Unity si Unreal Engine}
+Răspunsul la care este mai bun este o chestiune dificilă. Unii vor susține că Unreal este mai bun doar pentru faptul că este o alegere de top pentru studiourile AAA. Cu toate acestea, alții vor cita faptul că Unity este mai bine rotunjită și, pentru dezvoltatorii independenți, este adesea o intrare mai bună în industrie. Obiectiv, însă, este unul mai bun decât celălalt?
+
 \subsection{Unity}
-
-Unreal Engine este frecvent utilizat deoarece este:
-
-O platformă de creare 3D deschisă și avansată în timp real.
-Folosit pentru a produce jocuri în mai multe genuri.
-Integrat cu instrumente cheie de dezvoltare a jocurilor, inclusiv IDE-uri, instrumente grafice și controlul versiunilor.
-\subsection{Unreal Engine}
 Unity este frecvent utilizată deoarece este:
+\begin{itemize}
+\item O platformă de creare 3D deschisă și avansată în timp real.
+\item Folosit pentru a produce jocuri în mai multe genuri.
+\item Integrat cu instrumente cheie de dezvoltare a jocurilor, inclusiv IDE-uri, instrumente grafice și controlul versiunilor.
+\end{itemize}
 
-Un motor de joc multiplataforma, cu suport pentru peste 25 de platforme.
-O platformă de dezvoltare 3D în timp real.
-Integrat cu instrumente cheie de dezvoltare a jocurilor, inclusiv IDE-uri, instrumente grafice și controlul versiunilor.
+\subsection{Unreal Engine}
+Unreal Engine este frecvent utilizat deoarece este:
+\begin{itemize}
+\item Un motor de joc multiplataforma, cu suport pentru peste 25 de platforme.
+\item O platformă de dezvoltare 3D în timp real.
+\item Integrat cu instrumente cheie de dezvoltare a jocurilor, inclusiv IDE-uri, instrumente grafice și controlul versiunilor.
+\end{itemize}
 
 % Fourth page
 \newpage
@@ -88,10 +117,14 @@ Grafica & Grafica este buna spre foarte buna & Cele mai bune grafici oferite de 
 \begin{thebibliography}{}
 \bibitem{text1} 
 \href{https://ro.wikipedia.org/wiki/Motor_grafic}{Wikipedia: motor grafic link}
-\bibitem{text2} 
+\bibitem{text1} 
 \href{https://www.gamedesigning.org/career/video-game-engines/}{Gamedesigning: website link}
-\bibitem{text2} 
+\bibitem{text1} 
 \href{https://www.gamasutra.com/}{Gamasutra: website link}
+\bibitem{text1}
+\href{https://www.htlo.co.uk/unity-vs-unreal-engine-a-quick-comparison/}{HTLO: website link}
+\bibitem{text1}
+\href{https://gamedevacademy.org/unity-vs-unreal/}{GameDev Academy: website link}
 \end{thebibliography}
 
 \end{document}
