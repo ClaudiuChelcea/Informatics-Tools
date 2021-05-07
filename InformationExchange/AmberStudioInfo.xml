@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- For this homework i will store in XML format information
-about the 'Amber Studio' company' -->
+about the 'Amber Studio' company -->
 <!-- Note: this information is actual at 07/05/2021 (dd/mm/yyyy) -->
 
 <company name="Amber Studio" category="game development">
