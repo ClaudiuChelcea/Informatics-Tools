@@ -1,20 +1,20 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <!-- For this homework i will store in XML format information
 about the 'Amber Studio' company' -->
 <!-- Note: this information is actual at 07/05/2021 (dd/mm/yyyy) -->
 
-<company name="Amber Studio">
-	
+<company name="Amber Studio" category="game development">
+
 	<!-- The current date -->
-	<current_date>
+	<current_date time="now">
 		<dd>07</dd>
 		<mm>05</mm>
 		<yyyy>2021</yyyy>
 	</current_date>
 
 	<!-- Author -->
-	<author>
+	<author type="student">
 		<name>Chelcea Claudiu</name>
 		<faculty>Faculty of Automatic Control and Computer Science</faculty>
 		<university>University Politehnica of Bucharest</university>
@@ -38,7 +38,7 @@ about the 'Amber Studio' company' -->
 		</service_capabilities>
 
 		<!-- Company locations -->
-		<locations>
+		<locations type="studio location">
 			<l_item>Bucharest</l_item>
 			<l_item>Botosani</l_item>
 			<l_item>San Francisco</l_item>
