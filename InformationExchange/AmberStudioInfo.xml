@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<!-- For this homework i will store in XML format information
+about the 'Amber Studio' company' -->
+<!-- Note: this information is actual at 07/05/2021 (dd/mm/yyyy) -->
+
+<company name="Amber Studio">
+	
+	<!-- The current date -->
+	<current_date>
+		<dd>07</dd>
+		<mm>05</mm>
+		<yyyy>2021</yyyy>
+	</current_date>
+
+	<!-- Author -->
+	<author>
+		<name>Chelcea Claudiu</name>
+		<faculty>Faculty of Automatic Control and Computer Science</faculty>
+		<university>University Politehnica of Bucharest</university>
+		<year>First year</year>
+		<!-- Contact -->
+		<contact>
+			<email>claudiuchelcea01@gmail.com</email>
+			<phone>0763668592</phone>
+		</contact>
+	</author>
+
+	<!-- Company info -->
+	<company_info name="Amber Studio">
+		<employees>700+</employees>
+		<service_capabilities>
+			<s_item>Full Development</s_item>
+			<s_item>Co-Development</s_item>
+			<s_item>Live Ops </s_item>
+			<s_item>Custom Development </s_item>
+			<s_item>Development Support</s_item>
+		</service_capabilities>
+
+		<!-- Company locations -->
+		<locations>
+			<l_item>Bucharest</l_item>
+			<l_item>Botosani</l_item>
+			<l_item>San Francisco</l_item>
+			<l_item>Los Angeles</l_item>
+			<l_item>Guadalajara</l_item>
+			<l_item>Montreal</l_item>
+		</locations>
+	</company_info>
+	
+</company>
