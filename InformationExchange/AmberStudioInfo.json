@@ -1,0 +1,43 @@
+{
+    "@name": "Amber Studio",
+    "@category": "game development",
+    "current_date": {
+        "@time": "now",
+        "dd": "07",
+        "mm": "05",
+        "yyyy": "2021"
+    },
+    "author": {
+        "@type": "student",
+        "name": "Chelcea Claudiu",
+        "faculty": "Faculty of Automatic Control and Computer Science",
+        "university": "University Politehnica of Bucharest",
+        "year": "First year",
+        "contact": {
+            "email": "claudiuchelcea01@gmail.com",
+            "phone": "0763668592"
+        }
+    },
+    "company_info": {
+        "@name": "Amber Studio",
+        "employees": "700+",
+        "service_capabilities": [
+            "Full Development",
+            "Co-Development",
+            "Live Ops",
+            "Custom Development",
+            "Development Support"
+        ],
+        "locations": {
+            "@type": "studio location",
+            "l_item": [
+                "Bucharest",
+                "Botosani",
+                "San Francisco",
+                "Los Angeles",
+                "Guadalajara",
+                "Montreal"
+            ]
+        }
+    }
+}
