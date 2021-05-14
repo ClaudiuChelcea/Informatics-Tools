@@ -1,12 +1,15 @@
 {
     "@name": "Amber Studio",
     "@category": "game development",
+    "@type" : "company",
+    
     "current_date": {
         "@time": "now",
         "dd": "07",
         "mm": "05",
         "yyyy": "2021"
     },
+    
     "author": {
         "@type": "student",
         "name": "Chelcea Claudiu",
@@ -18,6 +21,7 @@
             "phone": "0763668592"
         }
     },
+    
     "company_info": {
         "@name": "Amber Studio",
         "employees": "700+",
@@ -28,6 +32,7 @@
             "Custom Development",
             "Development Support"
         ],
+        
         "locations": {
             "@type": "studio location",
             "l_item": [
