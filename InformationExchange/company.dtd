@@ -1,0 +1,25 @@
+<!ELEMENT company (current_date,author,company_info)>
+<!ATTLIST company name CDATA #REQUIRED>
+<!ATTLIST company category CDATA #REQUIRED>
+<!ELEMENT current_date (dd,mm,yyyy)>
+<!ATTLIST current_date time NMTOKEN #REQUIRED>
+<!ELEMENT dd (#PCDATA)>
+<!ELEMENT mm (#PCDATA)>
+<!ELEMENT yyyy (#PCDATA)>
+<!ELEMENT author (name,faculty,university,year,contact)>
+<!ATTLIST author type NMTOKEN #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT faculty (#PCDATA)>
+<!ELEMENT university (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT contact (email,phone)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT company_info (employees,service_capabilities,locations)>
+<!ATTLIST company_info name CDATA #REQUIRED>
+<!ELEMENT employees (#PCDATA)>
+<!ELEMENT service_capabilities (s_item+)>
+<!ELEMENT s_item (#PCDATA)>
+<!ELEMENT locations (l_item+)>
+<!ATTLIST locations type CDATA #REQUIRED>
+<!ELEMENT l_item (#PCDATA)>
